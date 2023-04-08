@@ -1,0 +1,6 @@
+Bacana ler a documentação da Builtin 
+http://robotframework.org/robotframework/latest/libraries/BuiltIn.html 
+
+Importante conhecer a Evaluate que é usado para comparar uma variável com outra pode também fazer operações aritméticas com variável com
+e o evaluate garante que os resultados sejam armazenados em uma variável para você utilizar ela.
+http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Evaluate

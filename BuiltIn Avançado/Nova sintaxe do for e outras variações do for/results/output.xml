@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1a1 (Python 3.8.10 on linux)" generated="20230407 16:12:47.514" rpa="false" schemaversion="4">
+<suite id="s1" name="For" source="/home/francieli/Documentos/Udemy-robot-framework-avancado/BuiltIn Avançado/for.robot">
+<test id="s1-t1" name="Teste do novo formato do FOR" line="2">
+<kw name="Velho formato do FOR de listas">
+<kw name=":FOR">
+<arg>${animal}</arg>
+<arg>IN</arg>
+<arg>gato</arg>
+<arg>cachorro</arg>
+<arg>cavalo</arg>
+<msg timestamp="20230407 16:12:47.540" level="FAIL">Support for the old FOR loop syntax has been removed. Replace ':FOR' with 'FOR', end the loop with 'END', and remove escaping backslashes.</msg>
+<status status="FAIL" starttime="20230407 16:12:47.540" endtime="20230407 16:12:47.540"/>
+</kw>
+<kw name="\">
+<arg>Log</arg>
+<arg>O animal desse laço é: ${animal}!</arg>
+<status status="NOT RUN" starttime="20230407 16:12:47.540" endtime="20230407 16:12:47.540"/>
+</kw>
+<kw name="\">
+<arg>Log</arg>
+<arg>Vamos para o próximo animal da lista...</arg>
+<status status="NOT RUN" starttime="20230407 16:12:47.540" endtime="20230407 16:12:47.540"/>
+</kw>
+<status status="FAIL" starttime="20230407 16:12:47.539" endtime="20230407 16:12:47.540"/>
+</kw>
+<kw name="Novo formato do FOR de listas">
+<status status="NOT RUN" starttime="20230407 16:12:47.541" endtime="20230407 16:12:47.541"/>
+</kw>
+<status status="FAIL" starttime="20230407 16:12:47.538" endtime="20230407 16:12:47.541">Support for the old FOR loop syntax has been removed. Replace ':FOR' with 'FOR', end the loop with 'END', and remove escaping backslashes.</status>
+</test>
+<status status="FAIL" starttime="20230407 16:12:47.516" endtime="20230407 16:12:47.542"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="For">For</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
