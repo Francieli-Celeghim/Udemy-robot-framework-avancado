@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1a1 (Python 3.8.10 on linux)" generated="20230409 15:30:02.736" rpa="false" schemaversion="4">
+<suite id="s1" name="Operating System" source="/home/francieli/Documentos/Udemy-robot-framework-avancado/Libraries Auxiliares/OperatingSystem/operating_system.robot">
+<test id="s1-t1" name="Exemplo 01: Criando arquivos" line="6">
+<kw name="Criando um arquivo texto">
+<kw name="Create File" library="OperatingSystem">
+<arg>./my_files/arquivo_TEXTO.txt</arg>
+<arg>Esse curso vai me tornar um ninja em Robot Framework!!!!</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<msg timestamp="20230409 15:30:02.830" level="INFO" html="true">Created file '&lt;a href="file:///home/francieli/Documentos/Udemy-robot-framework-avancado/Libraries Auxiliares/OperatingSystem/my_files/arquivo_TEXTO.txt"&gt;/home/francieli/Documentos/Udemy-robot-framework-avancado/Libraries Auxiliares/OperatingSystem/my_files/arquivo_TEXTO.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20230409 15:30:02.829" endtime="20230409 15:30:02.831"/>
+</kw>
+<status status="PASS" starttime="20230409 15:30:02.829" endtime="20230409 15:30:02.831"/>
+</kw>
+<kw name="Criando um arquivo JSON">
+<kw name="Create File" library="OperatingSystem">
+<arg>./my_files/arquivo_JSON.json</arg>
+<arg>{"teste01": "valor01", "teste02": 2, "teste03": [1, 2, 3]}</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<msg timestamp="20230409 15:30:02.833" level="INFO" html="true">Created file '&lt;a href="file:///home/francieli/Documentos/Udemy-robot-framework-avancado/Libraries Auxiliares/OperatingSystem/my_files/arquivo_JSON.json"&gt;/home/francieli/Documentos/Udemy-robot-framework-avancado/Libraries Auxiliares/OperatingSystem/my_files/arquivo_JSON.json&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20230409 15:30:02.832" endtime="20230409 15:30:02.833"/>
+</kw>
+<status status="PASS" starttime="20230409 15:30:02.832" endtime="20230409 15:30:02.834"/>
+</kw>
+<status status="PASS" starttime="20230409 15:30:02.827" endtime="20230409 15:30:02.835"/>
+</test>
+<doc>http://robotframework.org/robotframework/latest/libraries/OperatingSystem.html</doc>
+<status status="PASS" starttime="20230409 15:30:02.737" endtime="20230409 15:30:02.840"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Operating System">Operating System</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
