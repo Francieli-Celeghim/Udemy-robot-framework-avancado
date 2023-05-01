@@ -1,0 +1,27 @@
+ATENÇÃO: Atualização da Requests Library
+Atualização Library Requests!!!!
+
+
+Olá Robotizador!!
+
+Atualmente, as versões mais recentes da Library Requests tem novas sintaxes e melhorias em algumas keywords. O conteúdo ensinado em aula é compatível até a versão 0.7.2 da Library.
+
+
+
+Para os seus estudos, você tem duas opções:
+
+1 - Se você preferir seguir idêntico ao que mostro nos vídeos, force a instalação da versão compatível:
+
+pip install -U robotframework-requests==0.7.2
+
+
+
+2 - Se optar em continuar com a versão mais atual da Library, ou seja, da 0.8 em diante, você precisará mudar a sintaxe do código das aulas seguindo a documentação:
+
+https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html
+
+
+
+O conteúdo das aulas não é impactado, apenas a sintaxe das keywords de requisição! Por exemplo:
+
+O Get Request agora é Get On Session, o nome do parâmetro uri mudou para url e é necessário adicionar mais um argumento, o expected_status=any.
